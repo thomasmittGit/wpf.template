@@ -1,0 +1,29 @@
+﻿<Application x:Class="ModernTemplate.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ModernTemplate"
+             xmlns:viewModel="clr-namespace:ModernTemplate.MVVM.ViewModel"
+             xmlns:view="clr-namespace:ModernTemplate.MVVM.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/TextboxTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:DiscoveryViewModel}">
+                <view:DiscoveryView/>
+            </DataTemplate>
+
+            <Style x:Key="ControlStyle" TargetType="Control">
+                <Setter Property="FontFamily" Value="Poppins"/>
+            </Style>
+            <Style TargetType="Button" BasedOn="{StaticResource ControlStyle}"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
