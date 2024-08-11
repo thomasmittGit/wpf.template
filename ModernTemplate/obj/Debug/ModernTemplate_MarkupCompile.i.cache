@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\thoma\source\repos\ModernTemplate\ModernTemplate\obj\Debug\
+C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\
 ModernTemplate
 none
 false
 DEBUG;TRACE
-C:\Users\thoma\source\repos\ModernTemplate\ModernTemplate\App.xaml
-5-1112394665
+C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\App.xaml
+61198033896
 
-13-604911174
+151616720458
 13-946294123
-MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
+MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\HomeView.xaml;MVVM\View\MainView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
 
-False
+True
 

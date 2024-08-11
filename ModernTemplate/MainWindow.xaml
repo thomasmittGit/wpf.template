@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ModernTemplate"
         xmlns:viewModel="clr-namespace:ModernTemplate.MVVM.ViewModel"
+        xmlns:utils="clr-namespace:ModernTemplate.MVVM.Utils"
         mc:Ignorable="d"
         Title="MainWindow" 
         Height="600" 
@@ -16,7 +17,7 @@
         >
 
     <Window.DataContext>
-        <viewModel:MainViewModel/>
+        <utils:Controls/>
     </Window.DataContext>
     
     <Border Background="#272537"
@@ -39,27 +40,31 @@
                        FontSize="22"
                        Margin="20,0,0,0"/>
 
-            <StackPanel Grid.Row="1">
-                <RadioButton Content="Home"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"
-                             IsChecked="True"
-                             Command="{Binding HomeViewCommand}"/>
-                <RadioButton Content="Discovey"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding DiscoveryViewCommand}"/>
-                <RadioButton Content="Featured"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"/>
-            </StackPanel>
-
+            <Border Grid.Row="1"
+                    BorderThickness="1"
+                    BorderBrush="#100f17">
+                <StackPanel>                    
+                    <RadioButton Content="Home"
+                                 Height="50"
+                                 Foreground="White"
+                                 FontSize="14"
+                                 Style="{StaticResource MenuButtonTheme}"
+                                 IsChecked="True"
+                                 Command="{Binding HomeViewCommand}"/>
+                    <RadioButton Content="Discovey"
+                                 Height="50"
+                                 Foreground="White"
+                                 FontSize="14"
+                                 Style="{StaticResource MenuButtonTheme}"
+                                 Command="{Binding DiscoveryViewCommand}"/>
+                    <RadioButton Content="Featured"
+                                 Height="50"
+                                 Foreground="White"
+                                 FontSize="14"
+                                 Style="{StaticResource MenuButtonTheme}"/>
+                </StackPanel>
+            </Border>
+            
             <TextBox Width="250"
                      Height="40"
                      VerticalContentAlignment="Center"
