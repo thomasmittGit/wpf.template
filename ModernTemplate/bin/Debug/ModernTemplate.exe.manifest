@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ModernTemplate.exe" size="3059104">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ModernTemplate.exe" size="3061152">
       <assemblyIdentity name="ModernTemplate" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lmPb/3iGW7nbW9GBXDYrOo7stFvI8yndEC51ShqWiJE=</dsig:DigestValue>
+        <dsig:DigestValue>KymaUDeUJFYqfk5VKde6tL94SFlU5PIBEDRiyPjC1Ts=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

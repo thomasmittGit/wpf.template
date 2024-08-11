@@ -20,7 +20,7 @@
         <utils:Controls/>
     </Window.DataContext>
     
-    <Border Background="#272537"
+    <Border Background="{DynamicResource PrimaryBackgroundColor}"
             CornerRadius="20">
         <Grid>
             <Grid.ColumnDefinitions>
@@ -42,7 +42,7 @@
 
             <Border Grid.Row="1"
                     BorderThickness="1"
-                    BorderBrush="#100f17">
+                    BorderBrush="{DynamicResource SecundaryBackgroundColor}">
                 <StackPanel>                    
                     <RadioButton Content="Home"
                                  Height="50"
