@@ -9,8 +9,8 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Theme/DarkTheme.xaml"/>
-                <ResourceDictionary Source="Elements/MenuButtonTheme.xaml"/>
-                <ResourceDictionary Source="Elements/TextboxTheme.xaml"/>
+                <ResourceDictionary Source="Assets/Icons/Icons.xaml"/>
+                <ResourceDictionary Source="Elements/MainStyleSheet.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
             <DataTemplate DataType="{x:Type viewModel:MainViewModel}">

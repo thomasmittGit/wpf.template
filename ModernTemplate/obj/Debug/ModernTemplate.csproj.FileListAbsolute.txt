@@ -22,6 +22,9 @@ C:\Users\thoma\source\repos\ModernTemplate\ModernTemplate\obj\Debug\ModernTempla
 C:\Users\thoma\source\repos\ModernTemplate\ModernTemplate\obj\Debug\ModernTemplate.exe
 C:\Users\thoma\source\repos\ModernTemplate\ModernTemplate\obj\Debug\ModernTemplate.pdb
 C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\ModernTemplate.csproj.AssemblyReference.cache
+C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\Elements\MainStyleSheet.baml
+C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\Theme\DarkTheme.baml
 C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\MainWindow.g.cs
 C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\MVVM\View\DiscoveryView.g.cs
 C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\MVVM\View\HomeView.g.cs
@@ -48,6 +51,3 @@ C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\ModernTempl
 C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\ModernTemplate.application
 C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\ModernTemplate.exe
 C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\ModernTemplate.pdb
-C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\Elements\MenuButtonTheme.baml
-C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\Elements\TextboxTheme.baml
-C:\Users\thoma\Documents\repos\wpf.template\ModernTemplate\obj\Debug\Theme\DarkTheme.baml
