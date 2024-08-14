@@ -37,7 +37,7 @@
 
                     <!--Title-->
                     <StackPanel Orientation="Horizontal"
-                                Margin="5,0,0,0">
+                                Margin="2.5,0,0,0">
                         <Rectangle Width="30" 
                                    Height="30"
                                    Margin="10">
@@ -74,20 +74,21 @@
                     <!--Tile End-->
 
                     <!--Side Menu-->
-                    <Border Grid.Row="1">
+                    <Border Grid.Row="1"
+                            BorderBrush="Transparent">
                         <StackPanel>
-                            <StackPanel Orientation="Horizontal">
-                                <Button Style="{StaticResource SideMenuButtonsStyle}" Content="{DynamicResource home}" Margin="2.5,0,0,0"/>
-                                <RadioButton Content="Home" Height="50" Foreground="White" FontSize="14" Style="{StaticResource MenuButtonTheme}" Command="{Binding HomeViewCommand}"/>
-                            </StackPanel>
-                            <StackPanel Orientation="Horizontal">
-                                <Button Style="{StaticResource SideMenuButtonsStyle}" Content="{DynamicResource home}" Margin="2.5,0,0,0"/>
-                                <RadioButton Content="Discovey" Height="50" Foreground="White" FontSize="14" Style="{StaticResource MenuButtonTheme}" Command="{Binding DiscoveryViewCommand}"/>
-                            </StackPanel>
-                            <StackPanel Orientation="Horizontal">
-                                <Button Style="{StaticResource SideMenuButtonsStyle}" Content="{DynamicResource home}" Margin="2.5,0,0,0"/>
-                                <RadioButton Content="Featured" Height="50" Foreground="White" FontSize="14" Style="{StaticResource MenuButtonTheme}"/>
-                            </StackPanel>
+                            <Button Style="{StaticResource StackPannelMenuStyle}" Command="{Binding HomeViewCommand}">
+                                <StackPanel Width="200" Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Button Style="{StaticResource SideMenuButtonsStyle}" Content="{DynamicResource home}" Command="{Binding HomeViewCommand}"/>
+                                    <RadioButton Content="Home" Height="50" Foreground="White" FontSize="14" Style="{StaticResource MenuButtonTheme}" Command="{Binding HomeViewCommand}"/>
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource StackPannelMenuStyle}" Command="{Binding DiscoveryViewCommand}">
+                                <StackPanel Width="200" Orientation="Horizontal">
+                                    <Button Style="{StaticResource SideMenuButtonsStyle}" Content="{DynamicResource home}" Command="{Binding DiscoveryViewCommand}"/>
+                                    <RadioButton Content="Discovey" Height="50" Foreground="White" FontSize="14" Style="{StaticResource MenuButtonTheme}" Command="{Binding DiscoveryViewCommand}"/>
+                                </StackPanel>
+                            </Button>
                         </StackPanel>
                     </Border>
                     <!--Side Menu End-->
@@ -163,10 +164,12 @@
                         </ToggleButton.Triggers>
                     </ToggleButton>
 
-                    <TextBox VerticalContentAlignment="Center"
+                    <TextBox x:Name="SeachBox"
+                             VerticalContentAlignment="Center"
                              HorizontalAlignment="Left"
                              Margin="10"
-                             Style="{StaticResource ModernTextBox}"/>
+                             Style="{StaticResource ModernTextBox}"
+                             SelectionChanged="SeachBox_SelectionChanged"/>
                 </StackPanel>
                 <!--SearchBox End-->
 

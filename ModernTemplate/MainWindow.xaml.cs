@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModernTemplate.MVVM.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,20 @@ namespace ModernTemplate
         private void btnMinimize_Click(object sender, RoutedEventArgs e)
         {
             WindowState = WindowState.Minimized;
+        }
+
+        private void SeachBox_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            if (SeachBox.Text.Length > 3)
+            {
+                switch (SeachBox.Text)
+                {
+                    case "Teste":
+                        break;
+                    default: 
+                        break;
+                }
+            }
         }
     }
 }
