@@ -143,7 +143,7 @@
                                         <DoubleAnimation Storyboard.TargetName="GridNav" 
                                                         Storyboard.TargetProperty="Width" 
                                                         BeginTime="0:0:0" 
-                                                        From="200" To="50" 
+                                                        From="200" To="55" 
                                                         Duration="0:0:0.5">
                                         </DoubleAnimation>
                                     </Storyboard>
@@ -155,7 +155,7 @@
                                         <DoubleAnimation Storyboard.TargetName="GridNav" 
                                                         Storyboard.TargetProperty="Width" 
                                                         BeginTime="0:0:0" 
-                                                        From="50" To="200" 
+                                                        From="55" To="200" 
                                                         Duration="0:0:0.5">
                                         </DoubleAnimation>
                                     </Storyboard>
